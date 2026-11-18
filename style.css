@@ -8,23 +8,6 @@ body {
     margin: 0;
 }
 
-/* ENCABEZADO */
-
-header {
-    background-color: #183b56;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
-
-header h1 {
-    font-size: 32px;
-}
-
-header p {
-    font-size: 18px;
-}
-
 /* LOGO */
 
 img {
@@ -115,4 +98,29 @@ footer {
 
 footer p {
     color: white;
+}
+/* ENCABEZADO */
+
+header {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header img {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 {
+    color: white;
+    font-size: 32px;
+    margin: 10px;
+}
+
+header p {
+    color: white;
+    font-size: 18px;
 }
