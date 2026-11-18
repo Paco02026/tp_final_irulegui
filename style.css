@@ -1,0 +1,118 @@
+
+/* ESTILO GENERAL */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
+    margin: 0;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* LOGO */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* TITULOS */
+
+h1, h2, h3 {
+    color: #183b56;
+}
+
+header h1 {
+    color: white;
+}
+
+/* MENU */
+
+nav {
+    background-color: #dce6ed;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #183b56;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #4386a8;
+}
+
+/* CONTENIDO */
+
+main {
+    width: 85%;
+    margin: 25px auto;
+}
+
+main h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* SECCIONES */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #25658a;
+}
+
+/* IMAGENES */
+
+main img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* LISTAS */
+
+li {
+    margin: 10px 0;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    color: white;
+}
