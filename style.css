@@ -8,21 +8,51 @@ body {
     margin: 0;
 }
 
-/* LOGO */
+p {
+    line-height: 1.6;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #183b56;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: white;
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* IMAGENES */
 
 img {
     max-width: 100%;
     height: auto;
 }
 
+header img {
+    display: block;
+    width: 80px;
+    margin: 0 auto 10px;
+}
+
+main img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
 /* TITULOS */
 
 h1, h2, h3 {
     color: #183b56;
-}
-
-header h1 {
-    color: white;
 }
 
 /* MENU */
@@ -55,10 +85,6 @@ main h2 {
     text-align: center;
 }
 
-p {
-    line-height: 1.6;
-}
-
 /* SECCIONES */
 
 section {
@@ -70,14 +96,6 @@ section {
 
 section h2 {
     color: #25658a;
-}
-
-/* IMAGENES */
-
-main img {
-    display: block;
-    margin: 15px auto;
-    border-radius: 8px;
 }
 
 /* LISTAS */
@@ -98,29 +116,4 @@ footer {
 
 footer p {
     color: white;
-}
-/* ENCABEZADO */
-
-header {
-    background-color: #183b56;
-    color: white;
-    text-align: center;
-    padding: 25px;
-}
-
-header img {
-    width: 80px;
-    display: block;
-    margin: 0 auto 10px;
-}
-
-header h1 {
-    color: white;
-    font-size: 32px;
-    margin: 10px;
-}
-
-header p {
-    color: white;
-    font-size: 18px;
 }
