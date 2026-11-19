@@ -1,5 +1,5 @@
 
-/* ESTILO GENERAL */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@ p {
     line-height: 1.6;
 }
 
-/* ENCABEZADO */
+
 
 header {
     background-color: #183b56;
@@ -30,7 +30,6 @@ header p {
     font-size: 18px;
 }
 
-/* IMAGENES */
 
 img {
     max-width: 100%;
@@ -49,13 +48,11 @@ main img {
     border-radius: 8px;
 }
 
-/* TITULOS */
 
 h1, h2, h3 {
     color: #183b56;
 }
 
-/* MENU */
 
 nav {
     background-color: #dce6ed;
@@ -74,7 +71,6 @@ nav a:hover {
     color: #4386a8;
 }
 
-/* CONTENIDO */
 
 main {
     width: 85%;
@@ -85,7 +81,6 @@ main h2 {
     text-align: center;
 }
 
-/* SECCIONES */
 
 section {
     background-color: white;
@@ -98,13 +93,11 @@ section h2 {
     color: #25658a;
 }
 
-/* LISTAS */
 
 li {
     margin: 10px 0;
 }
 
-/* PIE DE PAGINA */
 
 footer {
     background-color: #183b56;
